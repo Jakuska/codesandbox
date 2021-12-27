@@ -9,6 +9,9 @@
   </head>
   <body>
     <div class="code-window">
+      <header class="code-header">
+        Enter Test Code Below
+      </header>
       <div class="code-editor"></div>
     </div>
 
@@ -16,13 +19,14 @@
       <button onCLick="runCode()" class="button">Run Code</button>
     </div>
 
+    <div class="code-window">
+      <header class="code-header">
+        Code Below
+      </header>
+      <div class="code-output"></div>
+    </div>
+
     <script src="./js/codeflask.min.js"></script>
-    <script>
-      const flask = new CodeFlask(".code-editor", {
-        language: "js",
-        lineNumbers: true,
-      });
-    </script>
     <script src="./index.js"></script>
   </body>
 </html>

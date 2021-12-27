@@ -34,6 +34,12 @@ body {
   height: 336px;
 }
 
+.code-output {
+  position: relative;
+  width: 100%;
+  height: 336px;
+}
+
 .codeflask {
   border: none !important;
 }
@@ -63,4 +69,12 @@ body {
 
 .button:active {
   box-shadow: 2px 2px 3px 0px #c7c7c7;
+}
+
+.code-header {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #537bff;
 }
