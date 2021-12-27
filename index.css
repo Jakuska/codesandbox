@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background: #d8f7ff; 
+}
+
 html {
   font-size: 10px;
 }
