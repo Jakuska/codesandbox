@@ -1,11 +1,17 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 10px;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
-  color: #5A5A5A;
+  color: #5a5a5a;
   margin: 0;
 }
 
@@ -13,7 +19,7 @@ body {
   width: 662px;
   background: #fff;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.16);
-  margin: 3.3rem auto;
+  margin: 50px auto;
   overflow: hidden;
   border-radius: 0.8rem;
 }
@@ -28,3 +34,30 @@ body {
   border: none !important;
 }
 
+.actions-container {
+  width: 662px;
+  height: 50px;
+  background: #fff;
+  box-shadow: 0 10px 40px rgb(0 0 0 / 16%);
+  margin: 50px auto;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 25px;
+}
+
+.button {
+  background-color: #fafbfc;
+  border: 1px solid hsl(0deg 0% 0% / 15%);
+  vertical-align: middle;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.button:active {
+  box-shadow: 0 1px #c7c7c7;
+  transform: translateY(1px);
+}

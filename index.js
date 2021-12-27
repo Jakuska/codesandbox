@@ -1,4 +1,3 @@
-const flask = new CodeFlask('.code-editor', {
-    language: 'js',
-    lineNumbers: true,
-});
+function runCode() {
+    console.log('Hello world');
+}
